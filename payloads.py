@@ -1,7 +1,7 @@
 # Payloads based on email from Auxcis 29/11/2022
 
-# Print RFID label
-printMessage = '{ "SerialNr" : "123456789", "Location" : "Start", "Type" : "Print", "Timestamp" : 1669732272}'
+# Print RFID label (RfidModelId = [1,2,3])
+printMessage = '{ "SerialNr" : "123456789", "Location" : "Start", "Type" : "Print", "Timestamp" : 1669732272, "ManufactureYear" : "2022", "Model" : "PMG10", "TechnicalInfo" : "100-127V 50/60Hz 30W", "RfidModelId" : 1 }'
 
 # Auxcis system sending RFID read message
 readMessageEntry = '{ "SerialNr" : "123", "Location" : "Point1", "Type" : "Entry", "Timestamp" : 1669732272}'
