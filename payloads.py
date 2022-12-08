@@ -9,4 +9,4 @@ readMessageUpdate = '{ "SerialNr" : "123", "Location" : "Point1", "Type" : "Upda
 readMessageExit = '{ "SerialNr" : "123", "Location" : "Point1", "Type" : "Exit", "Timestamp" : 166973472}'
 
 # Auxcis system sending barcode read message
-barcodeReadMessage = '{ "SerialNr" : "123456789", "BarCode" : "Start", "Location" : "Point2", "Type" : "Print", "Timestamp" : 1669732272}'
+barcodeReadMessage = '{ "SerialNr" : "123456789", "BarCode" : "Start", "Location" : "Point2", "Type" : "Barcode", "Timestamp" : 1669732272}'
